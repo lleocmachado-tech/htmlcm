@@ -3,3 +3,4 @@ dist
 .DS_Store
 *.local
 .git-broken-bak
+.git-old-broken
