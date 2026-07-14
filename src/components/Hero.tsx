@@ -3,6 +3,7 @@ import Nav from './Nav'
 import MobileMenu from './MobileMenu'
 import GridBackground from './GridBackground'
 import SpotlightReveal from './SpotlightReveal'
+import AxeAnimation from './AxeAnimation'
 import { BG_IMAGE_1, OVERLAY_IMAGE } from '../constants'
 
 const PARALLAX_STRENGTH = 16
@@ -69,11 +70,13 @@ function Hero() {
           style={{ backgroundImage: `url(${BG_IMAGE_1})` }}
         />
 
+        <AxeAnimation />
+
         <h1
           className="absolute inset-x-0 top-20 z-20 select-none text-center text-[4.5rem] font-normal uppercase leading-[0.9] text-white xs:text-[5.5rem] sm:top-28 sm:text-[10rem] md:top-32 md:text-[13rem] lg:text-[16rem]"
           style={{ fontFamily: "'Instrument Serif', serif" }}
         >
-          Measured
+          MACHADO
         </h1>
 
         <img
